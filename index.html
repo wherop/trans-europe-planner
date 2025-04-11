@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style/map-view.css">
+    <link rel="stylesheet" href="style/components/top-card.css">
+    <link rel="stylesheet" href="style/components/map.css">
+    <link rel="stylesheet" href="style/components/navbar.css">
+
+    <title>Trans-Europe-Planner</title>
+</head>
+
+<body>
+    <div class="top-card">
+        <div class="top-card-item item-0 location-row">
+            <i data-lucide="map-pin" class="location icon"></i>
+            <div>Berlin</div>
+        </div>
+        <div class="top-card-item item-1 location-row">
+            <i data-lucide="crosshair"></i>
+            <div>Rome</div>
+        </div>
+        <div class="top-card-item item-2 calendar-btn">
+            <i data-lucide="calendar-days"></i>
+        </div>
+        <div class="overlay">
+            <span class="affordance-bar"></span>
+        </div>
+    </div>
+
+    <div class="map-frame">
+        <p>This will be a map</p>
+    </div>
+
+    <nav>
+        <a href="">
+            <i data-lucide="map"></i>
+            <div>Calendar</div>
+        </a>
+        <a href="">
+            <i data-lucide="square-chart-gantt"></i>
+            <div>Timeline</div>
+        </a>
+        <a href="">
+            <i data-lucide="list"></i>
+            <div>Summary</div>
+        </a>
+    </nav>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

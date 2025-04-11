@@ -1,0 +1,64 @@
+.top-card {
+    display: grid;
+    grid-template-columns: auto 4rem ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "starting-point calendar"
+        "destination calendar";
+    position: relative;
+    padding: 12px;
+    width: 100%;
+    background-color: white;
+}
+
+.top-card-item {
+
+}
+
+.item-0 {
+    grid-area: starting-point;
+}
+
+.item-1 {
+    grid-area: destination;
+}
+
+.item-2 {
+    grid-area: calendar;
+}
+
+.overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 10;
+    height: 2rem;
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px;
+}
+
+.affordance-bar {
+    width: 4rem;
+    height: .5rem;
+    border-radius: 1rem;
+    background-color: grey;
+}
+
+.location-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.calendar-btn {
+    place-self: center stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

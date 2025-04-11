@@ -1,0 +1,10 @@
+.map-frame {
+    background-color: darkolivegreen;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    padding-top: 3rem;
+    flex-grow: 1;
+    overflow: auto;
+}
